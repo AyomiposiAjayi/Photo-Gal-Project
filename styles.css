@@ -1,0 +1,33 @@
+<meta name = "viewport"
+content = "width=device-width"
+initial-scale =1">
+
+img{
+  width:300px;
+  height:260px;
+  object-fit: cover;
+  padding: 5px;
+
+}
+.different{
+  width:300px;
+  height:260px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+h1{
+  background-image: url("https://ae01.alicdn.com/kf/HTB11UKBPVXXXXcsaXXXq6xXFXXXK/TR-New-Born-Photo-Studio-Backdrop-5x7FT-White-Pink-Purple-Blue-Bokeh-Spots-Custom-Photography-Background.jpg");
+  color: #D81B60;
+  text-align: center;
+  font-family: Teko;
+  font-size: 150px;
+  padding: 20px;
+  border: 5px;
+  border-radius: 13px;
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    background: white;
+  }
+}
